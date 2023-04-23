@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Movies App!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ <form id="movie-form" class=" bg text-center">
+     <h1 id="heading">My Favorite Movies</h1>
+        <label>Title : </label>
+        <input id="title" type="text" required placeholder="Enter movie title">
+
+        <label>&nbsp;&nbsp;Rating : </label>
+        <input id="rating" type="number" required  min="0" placeholder="Enter rating">
+        <button type="submit" class="submit-button">&nbsp;Submit&nbsp;&nbsp;</button>
+         <div> &nbsp;&nbsp;
+         
+            <table class="table">
+                <tr>
+                    <th id = "title" class ="fas fa-sort-down">Title</th>
+                    <th id = "rating" class ="fas fa-sort-down">Rating</th>
+                    <td>Delete</td>
+                </tr>
+
+            </table>
+        </div>
+    </form>
+
+
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+
+</html>
